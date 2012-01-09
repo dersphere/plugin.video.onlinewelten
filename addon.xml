@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.onlinewelten" name="Onlinewelten.com Videos" version="0.0.1" provider-name="Tristan Fischer (sphere)">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8"/>
+    <import addon="script.module.xbmcswift" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Watch game videos and trailers from www.onlinewelten.com</summary>
+    <description lang="en">Watch game videos and trailers from www.onlinewelten.com</description>
+  </extension>
+</addon>
